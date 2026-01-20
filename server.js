@@ -5,4 +5,6 @@ app.get('/' , (req,res) => {
     res.send('Hello git');
 });
 
+app.get('/users',(req,res) => res.send('User List'));
+
 app.listen(3000, () => console.log('run'))
